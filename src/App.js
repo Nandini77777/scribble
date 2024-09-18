@@ -1,8 +1,10 @@
+import Home from "./components/Home"
+import "./App.css"
 function App() {
   return (
-    <div>
-      <h1>Scribble</h1>
-    </div>
+    <>
+     <Home></Home>
+    </>
   );
 }
 

@@ -1,0 +1,64 @@
+
+  .head{
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(237, 8, 8);
+    text-align: center;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://img.freepik.com/free-vector/hand-drawn-children-s-day-spanish-background_23-2149299339.jpg?w=900&t=st=1726589624~exp=1726590224~hmac=72e5644b0563081bb11769dc54a28a8e4392e5eadc2a845d5179023368e25582'); /* Replace with your image URL */
+  background-size: cover; /* Scale the background image to cover the entire div */
+  background-position: center; /* Center the background image */
+  color: white; /* Text color for visibility */
+  padding: 20px;
+  border-radius: 8px;
+  height: 500px; /* Adjust the height as needed */
+  width: 500px; /* Fixed width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  box-sizing: border-box; 
+  }
+
+.textbox {
+    width: 80%; /* Make the input width relative to its container */
+    max-width: 100%; /* Limit the maximum width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #9c2b2b;
+    border-radius: 4px;
+}
+  
+.butt {
+    position: relative;
+    /* overflow: hidden; */
+    background: #37ea00; /* Default button background color */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 5px; /* Add some space between buttons */
+}
+
+.butt2 {
+    position: relative;
+    overflow: hidden;
+    background: #00a0ea; /* Default button background color */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin: 5px; /* Add some space between buttons */
+}
+  
+  
